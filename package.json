@@ -1,0 +1,26 @@
+{
+  "name": "practica_5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^38.1.2",
+    "electron-builder": "^26.0.12",
+    "electron-updater": "^6.6.2"
+  },
+  "build": {
+    "appId": "com.ariel.mireproductor",
+    "productName": "Mi Reproductor de Música",
+    "publish": {
+      "provider": "github",
+      "owner": "Neith21",
+      "repo": "Mi-Reproductor-de-M-sica"
+    }
+  }
+}
